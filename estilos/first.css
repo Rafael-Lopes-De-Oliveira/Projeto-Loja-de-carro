@@ -20,6 +20,10 @@
     --cor05bl:black;
     --cor06var: rgba(57, 55, 55, 0.663);
 }
+html{
+    scroll-behavior: smooth;
+    
+}
 
 body,html{
     text-align: center;
