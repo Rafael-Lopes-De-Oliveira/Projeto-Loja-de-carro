@@ -70,9 +70,6 @@ header> nav> ul>li{
     padding: 5px;
 } */
 
-main{
-    width: auto;
-}
 
 main h1{
     background-color: var(--cor05bl);
@@ -121,9 +118,6 @@ main h1{
 }
 
 
-#importados,#populares,#baratos{
-    width: 80vw;
-}
 
 
 #importados  img, #populares  img, #baratos  img{
@@ -148,6 +142,7 @@ section > #importados > div, section > #populares > div, section > #baratos > di
 
 /*CARROS BARATOS ESTILIZAÇÃO */
 #importados,#populares,#baratos{
+    width: 80vw;
     display: list-item;
     align-items: center;
     margin: 15px auto;
