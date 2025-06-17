@@ -1,0 +1,11 @@
+@charset"UTF-8";
+
+@media screen and (min-width:768px){
+    section#importados{
+        display: grid;
+    }
+
+    #importados>div{
+       grid-auto-flow: column;
+    }
+}
