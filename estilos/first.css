@@ -11,6 +11,18 @@
     font-size: 1.7em;
 }
 
+* img{
+    width: 225px;
+    height: 130px;
+}
+
+* > div{
+    border-color: rgb(38, 255, 0);
+    margin: auto;
+}
+
+
+
 :root{
     --cor01:red;
     --cor02:rgb(185, 10, 10);
@@ -28,6 +40,12 @@ html{
 body,html{
     text-align: center;
     background-color: var(--cor03);
+}
+
+body {
+    display: list-item;
+    align-items: center;
+
 }
 
 header{
@@ -64,24 +82,24 @@ main h1{
     padding-top: 3px;
 }
 
-main img{
+/* main img{
     margin: 6px auto ;
     width: 250px;
     height: 120px;
-}
+} */
 
 /**/
 
 .nome{
     background-color: var(--cor05bl);
     color: var(--cor04wh);
-    padding: px;
+    padding: 3px;
     margin-bottom: 2px;
 }
 
 .nome, .valor{
     padding: 3px;
-    width: 72.1%;
+    width: 220px;
     margin: auto;
 }
 
@@ -103,81 +121,67 @@ main img{
 }
 
 
-/*CARROS IMPORTADOS ESTILIZAÇÃO*/
-#importados{
-    margin: 15px auto;
-    padding-right: 40px;
-    background-color: var(--cor04wh);
-    width: 80vw ;
-    border-radius: 4px;
-    padding-top: 1px;
-    padding-bottom: 1px;
+#importados,#populares,#baratos{
+    width: 80vw;
 }
 
-section#importados > div{
-    margin: 16px auto 40px auto;
+
+#importados  img, #populares  img, #baratos  img{
+    margin: auto;
+}
+
+
+
+
+
+section > #importados > div, section > #populares > div, section > #baratos > div{
+    margin: auto;
     width:340px ;
     height: 200px;
     display: block;
-    
 }
+
+/*CARROS IMPORTADOS ESTILIZAÇÃO*/
+
 
 /* CARROS POPULARES ESTILIZAÇÃO*/
-#populares{
+
+/*CARROS BARATOS ESTILIZAÇÃO */
+#importados,#populares,#baratos{
+    display: list-item;
+    align-items: center;
     margin: 15px auto;
     padding-right: 40px;
     background-color: var(--cor04wh);
-    width: 80vw ;
     border-radius: 4px;
     padding-top: 1px;
-    padding-bottom: 1px;
+    padding-bottom: 10px;
 }
 
-section#populares > div{
-    margin: 16px auto 30px auto;
-    width:340px ;
-    height: 200px;
-    display: block;
-}
 
-#populares>div img{
+/* #populares>div img{
     width: 242px;
     height: 138px ;
-}
+} */
 
 
-#populares p{
+/* #populares p{
     width: 70%;
-}
+} */
 
-/*CARROS BARATOS ESTILIZAÇÃO */
-#baratos{
-    margin: 15px auto;
-    background-color:var(--cor04wh);
-    width: 70vw ;
-    border-radius: 4px;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    padding-right: 70px;
-    padding-left: 1px;
-    
-}
 
-section#baratos > div{
-    margin: 16px auto 30px auto;
-    width:340px ;
-    height: 200px;
-    display: block; 
-}
 
-#baratos img{
+
+
+
+/* #baratos img{
     width: 226px;
     height: 138px;
-}
+} */
 
-#baratos p{
+/* #baratos p{
     width: 65%;
-}
+} */
 
 /*RODA PÉ DO SITE*/
 
