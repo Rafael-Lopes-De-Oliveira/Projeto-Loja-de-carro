@@ -24,7 +24,7 @@ body{
 
 header{
     height: 20vh;
-    background-color: rgb(126, 126, 194);
+    /* background-color: rgb(126, 126, 194); */
     margin-bottom: 30px;
 }
 
@@ -42,7 +42,7 @@ menu{
 }
 
 #mid{
-    background-color: rgb(95, 83, 83);
+    /* background-color: rgb(95, 83, 83); */
     display: flex;
     justify-content: space-between;
     align-items:center;
